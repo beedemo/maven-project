@@ -53,7 +53,7 @@ public class ToDoResourceTest {
 
 		Entity<ToDo> entity = Entity.entity(todo, MediaType.APPLICATION_JSON);
 
-		Response response = target.path("fail").request().buildPost(entity)
+		Response response = target.path("todos").request().buildPost(entity)
 				.invoke();
 
 		Assert.assertNotNull(response.getEntity());
@@ -66,7 +66,7 @@ public class ToDoResourceTest {
 	 */
 	@Test
 	public void testGet() {
-		Response response = target.path("")
+		Response response = target.path("todos")
 				.request(MediaType.APPLICATION_JSON).get();
 
 		Assert.assertNotNull(response.getEntity());
