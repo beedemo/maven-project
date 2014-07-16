@@ -49,7 +49,7 @@ public class ToDoResourceTest {
 	@Test
 	public void testCreateOne() {
 		ToDo todo = new ToDo();
-		todo.setDescription("Test your demo.");
+		todo.setDescription("Test your demo man.");
 
 		Entity<ToDo> entity = Entity.entity(todo, MediaType.APPLICATION_JSON);
 
