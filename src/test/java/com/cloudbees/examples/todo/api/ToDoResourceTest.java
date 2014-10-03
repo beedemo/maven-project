@@ -53,7 +53,7 @@ public class ToDoResourceTest {
 
 		Entity<ToDo> entity = Entity.entity(todo, MediaType.APPLICATION_JSON);
 
-		Response response = target.path("todos").request().buildPost(entity)
+		Response response = target.path("UHOH").request().buildPost(entity)
 				.invoke();
 
 		Assert.assertNotNull(response.getEntity());
