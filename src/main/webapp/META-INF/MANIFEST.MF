@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Class-Path: lib/javax.servlet-api-3.0.1.jar lib/joda-time-2.3.jar lib/
+ jersey-spring3-2.9.1.jar lib/jersey-server-2.9.1.jar lib/jersey-clien
+ t-2.9.1.jar lib/javax.annotation-api-1.2.jar lib/hk2-api-2.3.0-b05.ja
+ r lib/aopalliance-repackaged-2.3.0-b05.jar lib/hk2-locator-2.3.0-b05.
+ jar lib/javassist-3.18.1-GA.jar lib/validation-api-1.1.0.Final.jar li
+ b/jersey-container-servlet-core-2.9.1.jar lib/hk2-2.3.0-b05.jar lib/h
+ k2-utils-2.3.0-b05.jar lib/javax.inject-1.jar lib/config-types-2.3.0-
+ b05.jar lib/core-2.3.0-b05.jar lib/hk2-config-2.3.0-b05.jar lib/tiger
+ -types-1.4.jar lib/bean-validator-2.3.0-b05.jar lib/hk2-runlevel-2.3.
+ 0-b05.jar lib/class-model-2.3.0-b05.jar lib/asm-all-repackaged-2.3.0-
+ b05.jar lib/spring-bridge-2.3.0-b05.jar lib/javax.ws.rs-api-2.0.jar l
+ ib/spring-core-4.0.5.RELEASE.jar lib/commons-logging-1.1.3.jar lib/sp
+ ring-context-4.0.5.RELEASE.jar lib/spring-aop-4.0.5.RELEASE.jar lib/a
+ opalliance-1.0.jar lib/spring-beans-4.0.5.RELEASE.jar lib/spring-expr
+ ession-4.0.5.RELEASE.jar lib/spring-web-4.0.5.RELEASE.jar lib/jersey-
+ container-grizzly2-http-2.9.1.jar lib/javax.inject-2.3.0-b05.jar lib/
+ grizzly-http-server-2.3.8.jar lib/grizzly-http-2.3.8.jar lib/grizzly-
+ framework-2.3.8.jar lib/jersey-common-2.9.1.jar lib/jersey-guava-2.9.
+ 1.jar lib/osgi-resource-locator-1.0.1.jar lib/grizzly-http-servlet-2.
+ 3.11.jar lib/jersey-media-moxy-2.9.1.jar lib/jersey-entity-filtering-
+ 2.9.1.jar lib/org.eclipse.persistence.moxy-2.5.0.jar lib/org.eclipse.
+ persistence.core-2.5.0.jar lib/org.eclipse.persistence.asm-2.5.0.jar 
+ lib/org.eclipse.persistence.antlr-2.5.0.jar
+Build-Jdk: 1.7.0_45
+Built-By: apemberton
+Created-By: Apache Maven 3.1.1
+Main-Class: com.cloudbees.examples.todo.api.Main
+
