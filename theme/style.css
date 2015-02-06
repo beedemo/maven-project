@@ -1,0 +1,9 @@
+#jenkins-name-icon,
+#jenkins-head-icon{
+	display:none;
+}
+
+div.logo{
+	width:160px;
+	background: url('http://localhost/theme/allstate.png') no-repeat;
+}
