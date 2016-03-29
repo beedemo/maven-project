@@ -1,6 +1,7 @@
 #!groovy
 mavenProject {
+	org = 'sa-team'
 	repo = 'todo-api'
 	email = 'kmadel@cloudbees.com'
-	rebuildBuildImage = true
+        protectedBranches = ['master']
 }
