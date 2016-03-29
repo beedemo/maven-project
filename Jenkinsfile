@@ -1,5 +1,6 @@
 #!groovy
 mavenProject {
-	repo = 'sa-team/todo-api'
+	repo = 'todo-api'
+	jdk = 8
 	email = 'kmadel@cloudbees.com'
 }
