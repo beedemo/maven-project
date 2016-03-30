@@ -2,6 +2,7 @@
 mavenProject {
 	org = 'sa-team'
 	repo = 'todo-api'
-	email = 'kmadel@cloudbees.com'
-        protectedBranches = ['master']
+	hipChatRoom = '1613593'
+        protectedBranches = ['master','feature-one']
+        jdk = '8'
 }
