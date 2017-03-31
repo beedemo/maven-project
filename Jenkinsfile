@@ -9,6 +9,7 @@ pipeline {
     stage('Build') {
       steps {
         sh 'mvn verify package'
+        hipchatSend 'Hello'
       }
     }
   }
