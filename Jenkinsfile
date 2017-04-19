@@ -13,7 +13,9 @@ pipeline {
       }
     }
     stage('Approve') {
-     input 'Do you approve?' 
+      steps {
+        input 'Do you approve?'
+      }
     }
   }
 }
