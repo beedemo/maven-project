@@ -12,5 +12,8 @@ pipeline {
         hipchatSend 'Hello'
       }
     }
+    stage('Approve') {
+     input 'Do you approve?' 
+    }
   }
 }
