@@ -120,11 +120,6 @@
 					<mainClass>com.cloudbees.examples.todo.api.Main</mainClass>
 				</configuration>
 			</plugin>
-			<plugin>
-			  <groupId>org.codehaus.mojo</groupId>
-			  <artifactId>sonar-maven-plugin</artifactId>
-			  <version>2.6</version>
-			</plugin>
 		</plugins>
 	</build>
 
